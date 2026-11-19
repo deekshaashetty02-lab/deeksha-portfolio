@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Deeksha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Deeksha</h2>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section class="page-section">
+    <h1>Contact <span>Me</span></h1>
+
+    <div class="contact-card">
+        <h2>Let's Connect!</h2>
+
+        <p>
+            Feel free to contact me for opportunities,
+            collaboration and professional discussions.
+        </p>
+
+        <p><strong>Name:</strong> Deeksha N</p>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:deekshaashetty02@gmail.com">
+                deekshaashetty02@gmail.com
+            </a>
+        </p>
+
+        <form id="contactForm">
+            <label for="visitorName">Name</label>
+            <input type="text" id="visitorName"
+                   placeholder="Enter your name" required>
+
+            <label for="visitorEmail">Email</label>
+            <input type="email" id="visitorEmail"
+                   placeholder="Enter your email" required>
+
+            <label for="visitorMessage">Your Message</label>
+            <textarea id="visitorMessage"
+                      placeholder="Write your message"
+                      required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Deeksha N | Contact</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
